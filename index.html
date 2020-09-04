@@ -78,7 +78,7 @@
         </div>
 
         <footer class="footer">
-            <p style="display: inline-block;" class="pull-right"><a href="https://www.elobuddy.net/profile/1798-chaos/">Krystra</a> developed this Script Database.</p>
+            <p style="display: inline-block;" class="pull-right">Script has edited for zenbot community by </a> <a href="https://www.elobuddy.net/profile/1798-chaos/">Krystra</p>
         </footer>
     </div>
 
@@ -173,7 +173,7 @@
                 d.innerHTML += '<a href="#" class="list-group-item" onclick="champions_ShowAddons(\'' + champions[i] + '\')">' + champions[i] + '<img src="http://ddragon.leagueoflegends.com/cdn/7.2.1/img/champion/' + champions[i].replace(" ", "").replace(".", "").replace("'", "").toLowerCase().capitalizeFirstLetter() + '.png" class="avatar"></a>';
             }
             if (!any)
-                d.innerHTML += '<li class="list-group-item">Nothing to show</li>';
+                d.innerHTML += '<li class="list-group-item">No avaliable champion.</li>';
         }
 
         function champions_ShowAddons(champion) {
@@ -189,7 +189,7 @@
                 }
             }
             if (!any)
-                d.innerHTML += '<li class="list-group-item">Nothing to show</li>';
+                d.innerHTML += '<li class="list-group-item">No avaliable champion.</li>';
         }
 
         function champions_SortList(target) {
